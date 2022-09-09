@@ -10,7 +10,7 @@ import { Footer } from './components/Footer';
 const App = () => {
 
   return (
-        <div className='min-h-screen text-lg bg-[#1d1d1d] block w-screen font-sans text-[#fff] overflow-x-hidden overflow-y-scroll border-box'>
+        <div className='min-h-screen text-lg bg-[#1d1d1d] block w-screen font-sans text-[#fff] overflow-x-hidden overflow-y-scroll border-box z-auto'>
           <NavBar />
           <Content />
           <Content2 />

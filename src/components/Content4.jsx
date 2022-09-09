@@ -18,12 +18,12 @@ export const Content4 = () => {
     };
 
   return (
-    <div className='overflow-hidden flex items-center relative transition-opacity delay-400' id='contact'>
+    <div className='overflow-hidden lg:flex items-center relative transition-opacity delay-400 mt-20 lg:mt-0' id='contact'>
         <div className='absolute -z-1 text-[60rem] text-[#2b2b2b] left-1/4 font-semibold'>@</div>
-        <div className='w-1/2 pl-20 inline-block'>
+        <div className='lg:w-1/2 lg:pl-20 pl-7 lg:inline-block'>
             <header>
-                <h2 className='text-[#08fdd8] font-bold mt-0 relative mb-5 left--2.5 text-7xl leading-25 block'><TextAnime4 /></h2>
-                <p className='relative block text-base'>I'm intersted in front end freelance opportunities and projects that improve my skills. However, if you have other request or question, don't hesistate to use the form.</p>
+                <h2 className='text-[#08fdd8] font-bold mt-0 relative mb-5 left--2.5 lg:text-7xl text-4xl leading-25 block'><TextAnime4 /></h2>
+                <p className='relative lg:block inline-block mb-5 text-base mr-2'>I'm intersted in front end freelance opportunities and projects that improve my skills. However, if you have other request or question, don't hesistate to use the form.</p>
                 <div className='w-full pt-[1rem] block relative'>
                     <form className='relative block' ref={form} onSubmit={sendEmail}>
                         <ul className=''>
@@ -48,7 +48,7 @@ export const Content4 = () => {
                 </div>
             </header>
         </div>
-        <div className='absolute inline-block left-3/4 mt-[-70px] font-semibold'>
+        <div className='lg:absolute relative lg:inline-block block lg:left-3/4 lg:mt-[-70px] mt-10 font-semibold'>
             <p className='text-3xl ml-5 leading-6 cursor-pointer block ease-out text-[#08fdd8]'>Contacts</p>
             <a href='https://twitter.com/Thieejhay' target='_blank' rel='noreferrer' className='text-2xl ml-5 leading-6 cursor-pointer block mt-[45px] ease-out text-[#08fdd8]'><h3>Twitter</h3></a>
             <a href='https://github.com/Thieejhay' target='_blank' rel='noreferrer' className='text-2xl ml-5 leading-6 cursor-pointer block mt-[40px] ease-out text-[#08fdd8]'><h3>GitHub</h3></a>
