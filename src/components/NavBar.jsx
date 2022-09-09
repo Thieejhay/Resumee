@@ -8,8 +8,8 @@ import { RiMenu3Line, RiCloseLine }from 'react-icons/ri';
 export const NavBar = () => {
     const[toggleMenu, setToggleMenu] = useState(false)
   return (
-    <div className='p-10 pb-0 flex justify-between items-center'>
-            <p className='text-3xl font-semibold text-[#08fdd8] py-1 px-2 mb-3 items-center '>
+    <div className='p-5 lg:p-10 pb-0 flex justify-between items-center w-screen'>
+            <p className='lg:text-3xl text-base md:font-semibold font:light text-[#08fdd8] py-1 px-0 lg:px-2 mb-3 items-center '>
               TIJANI TOFUNMI
             </p>
             <div>
@@ -32,7 +32,7 @@ export const NavBar = () => {
                             <Link to='#about' smooth><p className='p-2 border-b-1 border-white'>About</p></Link>
                             <Link to='#skills' smooth><p className='p-2 border-b-1 border-white'>My Skills</p></Link>
                             <Link to='#work' smooth><p className='p-2 border-b-1 border-white'>Work</p></Link>
-                            <Link to='#contact' smooth><p className='p-2 border-b-1 border-white'>Contact</p></Link>
+                            <Link to='#contact    ' smooth><p className='p-2 border-b-1 border-white'>Contact</p></Link>
                             <a href='https://twitter.com/Thieejhay' target='_blank' rel='noreferrer' className='m-2 inline-block'><CgTwitter /></a>
                             <a href='https://github.com/Thieejhay inline-block' target='_blank' rel='noreferrer' className='m-2 inline-block'><BsGithub /></a>
                             <a href='https://www.linkedin.com/in/tofunmi-tijani-1a796024a/' target='_blank' rel='noreferrer' className='m-2 inline-block'><BsLinkedin /></a>

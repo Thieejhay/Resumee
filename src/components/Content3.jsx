@@ -23,19 +23,19 @@ export const Content3 = () => {
     
 
   return (
-    <div className='overflow-hidden p-30 h-screen relative transition-opacity delay-400 opacity-100 inline-block' id='skills'>
-        <div className='inline-block w-[40%] pl-20 '>
+    <div className='overflow-hidden lg:p-30 lg:h-screen relative transition-opacity delay-400 opacity-100 lg:inline-block' id='skills'>
+        <div className='lg:inline-block lg:w-[40%] lg:pl-20 pl-7 block'>
             <header>
-            <h2 className='text-[#08fdd8] font-bold mt-0 relative mb-10 left--2.5 text-7xl leading-25 block'><TextAnime3 /></h2>
+            <h2 className='text-[#08fdd8] font-bold mt-0 relative mb-10 left--2.5 lg:text-7xl text-4xl leading-25 block'><TextAnime3 /></h2>
             </header>
-            <p className='relative block mb-5 text-base'>
+            <p className='relative lg:block inline-block mb-5 text-base mr-2'>
                 Focused and Dedicated Frontend developer with the eagerness to learn and improve on set skills given the opportunity. Dependable and quick-learning team player with effective communication and organization skills.
             </p>
-            <p className='relative block mb-5 text-base'>
+            <p className='relative lg:block inline-block mb-5 text-base mr-2'>
                 Completely willing to take on tasks in order to reach set goals and also gain additional knowledge and skills required of me in order to progress and improve daily.
             </p>
         </div>
-        <div className='w-[60%] absolute inline-block mt-20'>
+        <div className='lg:w-[60%] lg:absolute lg:inline-block mt-20 lg:pl-0 block w-screen'>
             <CardAnime />
         </div>
     </div>
