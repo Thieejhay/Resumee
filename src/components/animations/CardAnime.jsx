@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SiTailwindcss, SiTypescript, SiReact, SiMaterialui, SiChakraui, SiGithub } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
+import { SiTailwindcss, SiTypescript, SiReact, SiRedux, SiGithub } from 'react-icons/si';
+import { TbBrandNextjs, TbBrandReactNative } from 'react-icons/tb';
 
 
 export const CardAnime = () => {
@@ -28,13 +28,13 @@ export const CardAnime = () => {
                 <TbBrandNextjs className='object-cover w-24 h-24 rounded-full border-2 border-solid mt-[-45px] fill-[#111] bg-white'/>
                 <p className='text-white font-semibold lg:text-2xl text-xl items-center leading-none ml-2 lg:self-center'>Next Js</p>
             </Card>
-            <Card className=' relavtive bg-[#0072E5]'>
-                <SiMaterialui className='object-cover w-24 h-24 rounded-full border-2 border-solid mt-[-45px] fill-[#0072E5] bg-white'/>
-                <p className='text-white font-semibold lg:text-2xl text-xl items-center leading-none ml-2 lg:self-center'>Material UI</p>
+            <Card className=' relavtive bg-[#764ABC]'>
+                <SiRedux className='object-cover w-24 h-24 rounded-full border-2 border-solid mt-[-45px] fill-[#764ABC] bg-white'/>
+                <p className='text-white font-semibold lg:text-2xl text-xl items-center leading-none ml-2 lg:self-center'>Redux</p>
             </Card>
-            <Card className=' relavtive bg-[#319795]'>
-                <SiChakraui className='object-cover w-24 h-24 rounded-full border-2 border-solid mt-[-45px] fill-[#319795] bg-white'/>   
-                <p className='text-white font-semibold lg:text-2xl text-xl items-center leading-none ml-2 lg:self-center'>Chakra UI</p>
+            <Card className=' relavtive bg-[#282C34]'>
+                <TbBrandReactNative className='object-cover w-24 h-24 rounded-full border-2 border-solid mt-[-45px] fill-[#61DAFB] bg-white'/>   
+                <p className='text-white font-semibold lg:text-2xl text-xl items-center leading-none ml-2 lg:self-center'>React Native</p>
             </Card>
             <Card className='relavtive bg-[#111]'>
                 <SiGithub className='object-cover w-24 h-24 rounded-full border-2 border-solid mt-[-45px] fill-[#111] bg-white'/>
